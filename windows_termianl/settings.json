@@ -42,12 +42,16 @@
         "defaults":
         {	
         	// Put settings here that you want to apply to all profiles.
-        	"startingDirectory": null,
-        	//"background": "#012456",
-        	"cursorColor": "#f70505",
-	        "colorScheme" : "Tango Dark",
-	        "useAcrylic" : true,
-	        "fontFace" : "Consolas"
+	        "acrylicOpacity": 1,
+  			"closeOnExit": true,
+        	"colorScheme" : "Ubuntu",
+	        "cursorColor": "#FFFFFF",
+        	"cursorShape": "filledBox",
+	        "startingDirectory": null,
+	        "padding" : "0, 0, 0, 0",    
+        	"useAcrylic" : true,
+	        "fontFace" : "Consolas",
+		    "snapOnInput" : true,
 
         },
         "list":
@@ -55,16 +59,11 @@
     	    {
 		        "name" : "Linux Bash Shell",
 		        "guid" : "{9acb9455-ca41-5af7-950f-6bca1bc9722f}",
-		        "acrylicOpacity" : 0.75,
 		        "closeOnExit" : true,
 		        "commandline" : "bash.exe",
-		        "cursorColor" : "#FFFFFF",
-		        "cursorShape" : "bar",
 		        "historySize" : 9001,
 		        "icon" : "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.scale-100.png",
-		        "padding" : "0, 0, 0, 0",
-		        "snapOnInput" : true,
-		        "startingDirectory" : "%USERPROFILE%"
+		       	"startingDirectory" : "%USERPROFILE%"
 		    },
             {
 				"name": "Windows PowerShell Elevated",
@@ -105,7 +104,29 @@
 
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-    "schemes": [],
+    "schemes": [
+		{
+		  "name": "Ubuntu",
+		  "black": "#2e3436",
+		  "red": "#cc0000",
+		  "green": "#4e9a06",
+		  "yellow": "#c4a000",
+		  "blue": "#3465a4",
+		  "purple": "#75507b",
+		  "cyan": "#06989a",
+		  "white": "#d3d7cf",
+		  "brightBlack": "#555753",
+		  "brightRed": "#ef2929",
+		  "brightGreen": "#8ae234",
+		  "brightYellow": "#fce94f",
+		  "brightBlue": "#729fcf",
+		  "brightPurple": "#ad7fa8",
+		  "brightCyan": "#34e2e2",
+		  "brightWhite": "#eeeeec",
+		  "background": "#300a24",
+		  "foreground": "#eeeeec"
+		}
+    ],
 
     // Add custom keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
