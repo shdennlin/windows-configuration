@@ -1,0 +1,2 @@
+setting file location: ~%USERPROFILE%\AppData\Local\Microsoft\PowerToys~
+Ref: [[https://github.com/microsoft/PowerToys/issues/586][https://github.com/microsoft/PowerToys/issues/586]]

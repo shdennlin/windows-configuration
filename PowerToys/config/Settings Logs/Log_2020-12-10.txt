@@ -1,0 +1,181 @@
+INFO: 02:38:58.4016833
+    [Method]: .ctor [Class]: UserSettings
+    ColorPicker settings.json was missing, creating a new one
+INFO: 02:48:08.9709321
+    [Method]: RestoreOriginalCursors [Class]: CursorManager
+    Cursor file path was null
+INFO: 02:48:08.9779124
+    [Method]: OnExit [Class]: App
+    Cursor file path was null
+ERROR: 03:49:34.4364776
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:49:34.4384851
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:49:47.3647018
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:49:47.3650023
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:49:51.6291317
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:49:51.6297141
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:02.2599351
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:02.2603251
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:14.2406020
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:14.2408936
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:17.7607573
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:17.7610800
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:20.3960669
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:20.3964985
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:32.9645479
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:32.9648169
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:40.2079074
+    [Method]: LoadProfile [Class]: KeyboardManagerViewModel
+    Exception encountered when loading Keyboard Manager profile
+Object reference not set to an instance of an object.
+Inner exception: 
+
+Stack trace: 
+   at Microsoft.PowerToys.Settings.UI.Views.KeyboardManagerPage.CombineRemappings(List`1 remapKeysList, UInt32 leftKey, UInt32 rightKey, UInt32 combinedKey)
+   at Microsoft.PowerToys.Settings.UI.Views.KeyboardManagerPage.FilterRemapKeysList(List`1 remapKeysList)
+   at Microsoft.PowerToys.Settings.UI.Library.ViewModels.KeyboardManagerViewModel.LoadProfile()
+ERROR: 03:50:42.4554147
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
+ERROR: 03:50:42.4557201
+    [Method]: <.ctor>b__4_0 [Class]: GeneralPage
+    Exception encountered when reading the version.
+JSON value not found. (0x83750009)
+Inner exception: 
+
+Stack trace: 
+   at Windows.Data.Json.JsonObject.GetNamedString(String name)
+   at Microsoft.PowerToys.Settings.UI.Views.GeneralPage.<.ctor>b__4_0(JsonObject json)
