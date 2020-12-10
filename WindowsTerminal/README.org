@@ -1,0 +1,2 @@
+setting file location: ~%USERPROFILE%\AppData\Local\Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json~
+Ref: [[https://stackoverflow.com/questions/63101571/where-is-the-windows-terminal-settings-location][https://stackoverflow.com/questions/63101571/where-is-the-windows-terminal-settings-location]]
