@@ -16,13 +16,9 @@
 		{"command": { "action": "switchToTab", "index": 5 }, "keys": "ctrl+alt+6" },
 		{"command": { "action": "switchToTab", "index": 6 }, "keys": "ctrl+alt+7" },
 		{"command": { "action": "switchToTab", "index": 7 }, "keys": "ctrl+alt+8" },
-		{"command": { "action": "switchToTab", "index": 8 }, "keys": "ctrl+alt+9" },
-		{"command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+j" },
-		{"command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+h" },
-		{"command": { "action": "moveFocus", "direction": "right"}, "keys": "alt+l" },
-		{"command": { "action": "moveFocus", "direction": "up" }, 	"keys": "alt+k" }
+		{"command": { "action": "switchToTab", "index": 8 }, "keys": "ctrl+alt+9" }
     ],
-    "defaultProfile": "{9acb9455-ca41-5af7-950f-6bca1bc9722f}",
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -48,7 +44,8 @@
 	        "cursorColor": "#FFFFFF",
         	"cursorShape": "filledBox",
 	        "startingDirectory": null,
-	        "padding" : "0, 0, 0, 0",    
+	        //          "L, U, R, B"
+	        "padding" : "5, 5, 5, 1",    
         	"useAcrylic" : true,
 	        "fontFace" : "Consolas",
 		    "snapOnInput" : true,
@@ -56,30 +53,33 @@
         },
         "list":
         [
-    	    {
-		        "name" : "Linux Bash Shell",
-		        "guid" : "{9acb9455-ca41-5af7-950f-6bca1bc9722f}",
-		        "closeOnExit" : true,
-		        "commandline" : "bash.exe",
-		        "historySize" : 9001,
-		        "icon" : "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.scale-100.png",
-		       	"startingDirectory" : "%USERPROFILE%"
-		    },
+    	    
             {
-				"name": "Windows PowerShell Elevated",
-				"guid": "{41dd7a51-f0e1-4420-a2ec-1a7130b7e950}",
-				"commandline": "gsudo.exe powershell.exe",
-				"hidden": false,
-				"icon": "https://i.imgur.com/Giuj3FT.png"
+		        "name" : "Ubuntu-20.04",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl",
+		        "closeOnExit" : true,
+		        "historySize" : 9001,
+		       	"startingDirectory" : "%USERPROFILE%"
+            },
+            {
+                "name": "PowerShell 5.1",
+			    // Make changes here to the powershell.exe profile.
+			    "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+			    "commandline": "powershell.exe",
+			    "fontFace": "Cascadia Code PL",
+			    "hidden": false
 			},
             {
-                // Make changes here to the powershell.exe profile.
-                "name": "Windows PowerShell",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "commandline": "powershell.exe",
-                "hidden": false,
-                "startingDirectory": null,
-            },
+                "name": "PowerShell 5.1 (sudo)",
+			    // Make changes here to the powershell.exe profile.
+			    "guid": "{fdb04ae9-77ee-4062-98ac-9bada56511b9}",
+			    "commandline": "gsudo powershell.exe",
+			    "fontFace": "Cascadia Code PL",
+			    "hidden": false
+			},
             {
                 // Make changes here to the cmd.exe profile.
                 "name": "Command Prompt",
@@ -88,16 +88,10 @@
                 "hidden": false
             },
             {
-                "name": "Azure Cloud Shell",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "source": "Windows.Terminal.Azure",
-               	"hidden": false,
-            },
-            {
-                "name": "Ubuntu-20.04",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "source": "Windows.Terminal.Wsl",
-                "hidden": false
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             }
         ]
     },
